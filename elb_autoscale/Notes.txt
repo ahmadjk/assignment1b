@@ -1,0 +1,5 @@
+#Author: AhmedKhan
+#Exercise2
+#Notes: To prevent service outage, I have used elastic load balancer in front of minimum 2 ec2 instances with Nginx web service running. Incase of unavailability of one server or high level of stress (traffic) autoscallingpolicy will be triggered and new server will be  created with same set of software provisioning. Also implemented autoscaledown policy.
+Mimimum servers =2, maximum = 3
+
